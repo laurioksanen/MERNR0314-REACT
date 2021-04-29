@@ -130,7 +130,7 @@ const GetData = () => {
 const poista = (event) => {
   event.preventDefault();
   const id = event.target.name;
-  const url = "http://nycrestaurantdatarestapi.herokuapp.com/api/delete/" + id;
+  const url = "https://nycrestaurantdatarestapi.herokuapp.com/api/delete/" + id;
   //apin /delete/:id reittiä kutsutaan .delete komennolla.
   //dokumentti poistetaan ja vastauksena saatu data esitetään konsolissa ja yritetään renderöidä GetData uudestaan
   //jolloin päivitetty taulukko päivittyisi sivulle, mutta tämä ei toimi
