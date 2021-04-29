@@ -10,7 +10,7 @@ import './index.css';
 //ja sijainnin
 const AddField = () => {
   //määritellään ravintolan lisäämisesssä tarvittavat vakiot
-  const url = "http://nycrestaurantdatarestapi.herokuapp.com/api/add"
+  const url = "https://nycrestaurantdatarestapi.herokuapp.com/api/add"
   const [restaurantName, setRestaurantName] = useState('')
   const [cuisine, setCuisine] = useState('')
   const [borough, setBorough] = useState('')
