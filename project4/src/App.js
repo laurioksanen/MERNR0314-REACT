@@ -5,7 +5,7 @@ import React, { useState, useEffect }  from "react";
 import ReactDOM from "react-dom";
 import './index.css';
 
-//määritellään komponentti joka sisältää sivun latauksella esitettvän rakenteen, jossa on ravintolan lisäämis..
+//määritellään komponentti, joka sisältää sivun latauksella esitettvän rakenteen, jossa on ravintolan lisäämis..
 //lomake ja nappula, jota painamalla sivu lataa 10 viimeisintä ravintolaa tietokannassa, ja esittää niiden nimen
 //ja sijainnin
 const AddField = () => {
